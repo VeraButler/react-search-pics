@@ -3,6 +3,14 @@ An application for displaying pictures of different sizes.
 
 ## To Run
 git clone https://github.com/verabutler/react-pics
+
+add a config.js file to main folder
+include this code and save
+```
+export const auth = {
+    "unsplashID":"your unsplash id"
+}
+```
 npm install
 npm start
 
@@ -29,7 +37,7 @@ npm start
         - TypeError: setState() is not a fuction ==> make function an arrow function!
 8. [Unsplash API](https://www.unpslash.com/developers)
 9. Image map()
-    - required for re-render: key value to each mapped element\
+    - required for re-render: key value to each mapped element
 10. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
     - grid-tamplate-columns, grid-gap, grid-auto-rows
 11. Create Image Card Component
