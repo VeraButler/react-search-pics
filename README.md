@@ -22,7 +22,7 @@ npm start
           not the method class itself
 . AJAX Client
     - [axios](https://www.npmjs.com/package/axios) -> 3rd party package
-    - fetch -> function built intio modern browsers
+    - vs fetch -> function built intio modern browsers
 . [Unsplash API](https://www.unpslash.com/developers)
 
 <br />

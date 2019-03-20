@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import SearchBar from './SearchBar';
-import {auth} from 'config.js';
+import {auth} from '../config';
 
 class App extends React.Component {
 
