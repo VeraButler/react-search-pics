@@ -1,7 +1,8 @@
 import React from 'react';
+    
 
 class SearchBar extends React.Component {
-    state = { term: '' };
+    state = { term: 'Enter Search Item' };
 
     onFormSubmit = (e) => {
         e.preventDefault();
@@ -18,7 +19,8 @@ class SearchBar extends React.Component {
                         <input
                             type="text"
                             value={this.state.term}
-                            onChange={(e) => this.setState({ term: e.target.value })} />
+                            onChange={(e) => this.setState({ term: e.target.value })}
+                            style={{color: 'grey'}} />
                     </div>
                 </form>
             </div>
